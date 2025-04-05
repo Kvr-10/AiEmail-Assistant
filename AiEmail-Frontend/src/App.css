@@ -1,0 +1,127 @@
+/* Reset and Base Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('/background.png') no-repeat center center/cover fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #333; /* Dark text for better readability */
+}
+
+/* Main Container - Solid White Background */
+.container {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+    border: 2px solid #e0e0e0;
+}
+
+/* Form Elements - High Contrast */
+.form-container {
+    background: #f8f9fa;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Input Fields - Clear Visibility */
+.textField, .selectField {
+    margin-bottom: 25px !important;
+    width: 100%;
+}
+
+.textField .MuiOutlinedInput-root,
+.selectField .MuiOutlinedInput-root {
+    background: #fff;
+    border-radius: 6px !important;
+    border: 2px solid #ccc !important;
+}
+
+.textField .MuiOutlinedInput-root.Mui-focused,
+.selectField .MuiOutlinedInput-root.Mui-focused {
+    border-color: #0066cc !important;
+}
+
+.textField .MuiInputLabel-root,
+.selectField .MuiInputLabel-root {
+    color: #555 !important;
+    font-weight: bold;
+}
+
+/* Button - High Visibility */
+.button {
+    background-color: #0066cc;
+    color: white !important;
+    font-size: 1rem;
+    padding: 14px 28px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+    background-color: #0055aa;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Output Box - Clear White Background */
+.outputBox {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    color: #333;
+    border: 2px solid #0066cc;
+    min-height: 100px;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.6;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Heading - Dark with Accent */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+    color: #222;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    width: 50%;
+    height: 4px;
+    background: #0066cc;
+    border-radius: 2px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 1.6rem;
+    }
+    
+    .button {
+        padding: 12px 24px;
+    }
+}
