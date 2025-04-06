@@ -6,7 +6,12 @@ A full-stack **AI-powered email reply generator** with **Google Mail extension**
 
 ## 🚀 Demo
 
-> *(Replace with your actual screenshots)*
+> **🎥 Click to watch the demo:**  
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=GhceCjThWqo" target="_blank">
+    <img src="docs/images/frontend.png" alt="Watch the demo" style="width: 80%; max-width: 600px;" />
+  </a>
+</p>
 
 ---
 
@@ -52,18 +57,32 @@ A full-stack **AI-powered email reply generator** with **Google Mail extension**
 
 ## 🌐 Live Demo
 
-- 🔗 **Web Application**: *[Link goes here]*  
-- 📦 **Extension Download**: *(when available)*
+- 🔗 **[Web Application](https://aiemail-assistant-kvr10.netlify.app/)**
+- 🔗 **[Backend URL](https://aiemail-backend.onrender.com)**
+- 📦 **Extension Download**: *(comming soon!)*
+  
+> **Note**: The backend service on Render may take ~50 seconds to respond on first request due to cold start.
 
 ---
 
 ## 📸 Screenshots
 
-> *(Replace with your actual screenshots)*
+<p align="center">
+  <img src="docs/images/frontend.png" alt="Web Interface" width="70%" /><br>
+  <strong>🌐 Web Interface</strong>
+</p>
 
-- ✅ Web Interface  
-- ✅ Gmail Extension  
-- ✅ Sample Reply Example  
+<p align="center">
+  <img src="docs/images/frontend_reply.png" alt="Gmail Extension" width="70%" /><br>
+  <strong>💬 Sample Reply Example</strong>
+</p>
+
+<p align="center">
+  <img src="docs/images/gmail.png" alt="Gmail Extension" width="70%" /><br>
+  <img src="docs/images/gmail_reply.png" alt="Gmail Reply" width="70%" /><br>
+  <strong>📬 Gmail Extension</strong>
+</p>
+
 
 ---
 
@@ -146,14 +165,14 @@ Then load the unpacked extension in Chrome via chrome://extensions.
 |-----------|---------------------|
 | Frontend  | [Netlify](https://www.netlify.com)         |
 | Backend   | [Render](https://render.com)               |
-| Extension | Chrome Web Store    *(coming soon)*        |
+| Extension | Chrome Web Store    *(coming soon!)*       |
 
 ---
 
 ## 📬 Contact
 
 - 📧 **Email**: [chamansinha9480@gmail.com](mailto:chamansinha9480@gmail.com)
-- 🌐 **Portfolio**: [Chaman Sinha](https://your-portfolio-link.com) <!-- Replace with your actual link -->
+- 🌐 **Portfolio**: [Chaman Sinha](https://kvr-10.github.io/) 
 - 🐙 **GitHub**: [@Kvr-10](https://github.com/Kvr-10)
 
                                     
