@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Email Assistant - Smart Email Reply Generator</title>
+    <meta name="description" content="AI-powered email reply generator with Gmail integration. Generate context-aware email replies with tone customization.">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" href="assets/icons/ai.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/icons/logo.svg" alt="AI Email Assistant Logo">
+                <span>AI Email Assistant</span>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#demo">Demo</a></li>
+                    <li><a href="#technology">Technology</a></li>
+                    <li><a href="#installation">Installation</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="cta">
+                <a href="https://aiemail-assistant-kvr10.netlify.app/" class="btn btn-primary">Try Live Demo</a>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-content">
+                    <h1>AI-Powered Email Reply Generator</h1>
+                    <p class="subtitle">Save time and write better emails with AI-generated, context-aware replies tailored to your preferred tone.</p>
+                    <div class="hero-buttons">
+                        <a href="#demo" class="btn btn-primary">
+                            <i class="fas fa-play"></i> Watch Demo
+                        </a>
+                        <a href="#installation" class="btn btn-secondary">
+                            <i class="fas fa-download"></i> Get Started
+                        </a>
+                        <a href="https://github.com/Kvr-10/AIEmail-Assistant" class="btn btn-github" target="_blank" style="display: block; margin: 10px auto;">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>                        
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <a href="https://www.youtube.com/watch?v=GhceCjThWqo" target="_blank" class="video-thumbnail">
+                    <img src="assets/images/screenshot-web.png" alt="AI Email Assistant Interface">
+                    <div class="play-button">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features section">
+        <div class="container">
+            <h2 class="section-title">Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI Email Generation</h3>
+                    <p>Generate context-aware email replies using advanced AI that understands the content of incoming emails.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sliders-h"></i>
+                    </div>
+                    <h3>Tone Customization</h3>
+                    <p>Select from professional, casual, or friendly tones to match your communication style.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Gmail Integration</h3>
+                    <p>Browser extension adds an "AI Reply" button directly in Gmail for seamless workflow.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsive Interface</h3>
+                    <p>Clean, modern UI built with Material-UI that works perfectly on all devices.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-copy"></i>
+                    </div>
+                    <h3>Clipboard Integration</h3>
+                    <p>One-click copy of generated replies for quick insertion into your emails.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Fast Deployment</h3>
+                    <p>Easy deployment with Docker and CI/CD pipelines via GitHub Actions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="demo" class="demo section">
+        <div class="container">
+            <h2 class="section-title">Live Demo</h2>
+            <div class="demo-content">
+                <div class="demo-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/GhceCjThWqo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="demo-links">
+                    <h3>Try It Yourself</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-globe"></i>
+                            <a href="https://aiemail-assistant-kvr10.netlify.app/" target="_blank">Web Application</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-server"></i>
+                            <a href="https://aiemail-backend.onrender.com" target="_blank">Backend API</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-puzzle-piece"></i>
+                            <span>Chrome Extension (Coming Soon)</span>
+                        </li>
+                    </ul>
+                    <div class="note">
+                        <p><strong>Note:</strong> The backend service on Render may take ~50 seconds to respond on first request due to cold start.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="screenshots section">
+        <div class="container">
+            <h2 class="section-title">Screenshots</h2>
+            <div class="screenshot-gallery">
+                <div class="screenshot-item">
+                    <img src="assets/images/screenshot-web.png" alt="Web Interface">
+                    <p>Web Interface</p>
+                </div>
+                <div class="screenshot-item">
+                    <img src="assets/images/screenshot-reply.png" alt="Sample Reply Example">
+                    <p>Sample Reply Example</p>
+                </div>
+                <div class="screenshot-item">
+                    <img src="assets/images/screenshot-gmail.png" alt="Gmail Extension">
+                    <p>Gmail Extension</p>
+                </div>
+                <div class="screenshot-item">
+                    <img src="assets/images/screenshot-gmail-reply.png" alt="Gmail Reply">
+                    <p>Gmail Reply</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="technology" class="technology section">
+        <div class="container">
+            <h2 class="section-title">Technology Stack</h2>
+            <div class="tech-stack">
+                <div class="tech-category">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li><i class="fas fa-leaf"></i> Spring Boot (Java)</li>
+                        <li><i class="fas fa-exchange-alt"></i> REST API</li>
+                        <li><i class="fas fa-cloud"></i> Render (Hosting)</li>
+                    </ul>
+                </div>
+                <div class="tech-category">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li><i class="fab fa-react"></i> React (Vite)</li>
+                        <li><i class="fas fa-palette"></i> Material-UI (MUI)</li>
+                        <li><i class="fas fa-project-diagram"></i> Axios</li>
+                        <li><i class="fas fa-cloud"></i> Netlify (Hosting)</li>
+                    </ul>
+                </div>
+                <div class="tech-category">
+                    <h3>Extension</h3>
+                    <ul>
+                        <li><i class="fab fa-chrome"></i> Chrome Extension API</li>
+                        <li><i class="fab fa-google"></i> Google Mail API</li>
+                    </ul>
+                </div>
+                <div class="tech-category">
+                    <h3>DevOps</h3>
+                    <ul>
+                        <li><i class="fas fa-code-branch"></i> GitHub Actions (CI/CD)</li>
+                        <li><i class="fab fa-docker"></i> Docker</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="installation" class="installation section">
+        <div class="container">
+            <h2 class="section-title">Installation & Setup</h2>
+            <div class="installation-steps">
+                <div class="step">
+                    <h3>Prerequisites</h3>
+                    <ul class="prerequisites">
+                        <li><i class="fab fa-java"></i> Java JDK 17+</li>
+                        <li><i class="fab fa-node-js"></i> Node.js 16+</li>
+                        <li><i class="fas fa-cube"></i> Maven</li>
+                        <li><i class="fas fa-npm"></i> npm</li>
+                    </ul>
+                </div>
+                
+                <div class="step">
+                    <h3>Backend Setup</h3>
+                    <div class="code-block">
+                        <pre><code>git clone https://github.com/Kvr-10/AiEmail-Assistant.git
+cd AiEmail-Assistant/backend</code></pre>
+                    </div>
+                    <h4>Configure environment variables:</h4>
+                    <div class="code-block">
+                        <pre><code># Create application.properties file
+echo "OPENAI_API_KEY=your-api-key" >> src/main/resources/application.properties</code></pre>
+                    </div>
+                    <h4>Build and run:</h4>
+                    <div class="code-block">
+                        <pre><code>mvn clean install
+mvn spring-boot:run</code></pre>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <h3>Frontend Setup</h3>
+                    <div class="code-block">
+                        <pre><code>cd ../frontend
+npm install
+npm run dev</code></pre>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <h3>Extension Setup</h3>
+                    <div class="code-block">
+                        <pre><code>cd ../extension
+npm install
+npm run build</code></pre>
+                    </div>
+                    <p>Then load the unpacked extension in Chrome via <code>chrome://extensions</code>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="api section">
+        <div class="container">
+            <h2 class="section-title">API Documentation</h2>
+            <div class="api-docs">
+                <div class="api-endpoints">
+                    <h3>Endpoints</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Method</th>
+                                <th>Endpoint</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>GET</td>
+                                <td>/</td>
+                                <td>Health check</td>
+                            </tr>
+                            <tr>
+                                <td>POST</td>
+                                <td>/api/email/generate</td>
+                                <td>Generate AI email reply</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="api-example">
+                    <h3>Request Example</h3>
+                    <div class="code-block">
+                        <pre><code class="language-json">{
+  "emailContent": "original email text",
+  "tone": "professional/casual/friendly"
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:chamansinha9480@gmail.com">chamansinha9480@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-globe"></i>
+                            <a href="https://kvr-10.github.io/" target="_blank">Portfolio</a>
+                        </li>
+                        <li>
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/Kvr-10" target="_blank">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="github-link">
+                    <h3>Project Repository</h3>
+                    <a href="https://github.com/Kvr-10/AIEmail-Assistant" class="btn btn-github" target="_blank">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/icons/logo.svg" alt="AI Email Assistant Logo">
+                    <span>AI Email Assistant</span>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#demo">Demo</a></li>
+                        <li><a href="#technology">Technology</a></li>
+                        <li><a href="#installation">Installation</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/Kvr-10" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:chamansinha9480@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://kvr-10.github.io/" target="_blank"><i class="fas fa-globe"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AI Email Assistant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
