@@ -1,4 +1,4 @@
-![screenshot-web](https://github.com/user-attachments/assets/148508d1-40eb-429b-a5b8-1e9d3509c24d)# AI Email Assistant
+# AI Email Assistant
 
 A full-stack **AI-powered email reply generator** with **Google Mail extension** integration, built with a **Spring Boot** backend and **React + Vite** frontend.
 
@@ -9,7 +9,7 @@ A full-stack **AI-powered email reply generator** with **Google Mail extension**
 > **🎥 Click to watch the demo:**  
 <p align="center">
   <a href="https://www.youtube.com/watch?v=GhceCjThWqo" target="_blank">
-    <img src="docs/images/frontend.png" alt="Watch the demo" style="width: 80%; max-width: 600px;" />
+    <img src="docs/assets/images/screenshot-web.png" alt="Watch the demo" style="width: 80%; max-width: 600px;" />
   </a>
 </p>
 
@@ -73,13 +73,13 @@ A full-stack **AI-powered email reply generator** with **Google Mail extension**
 </p>
 
 <p align="center">
-  <img src="docs/images/screenshot-reply.png" alt="Gmail Extension" width="70%" /><br>
+  <img src="docs/assets/images/screenshot-reply.png" alt="Gmail Extension" width="70%" /><br>
   <strong>💬 Sample Reply Example</strong>
 </p>
 
 <p align="center">
-  <img src="docs/images/screenshot-gmail.png" alt="Gmail Extension" width="70%" /><br>
-  <img src="docs/images/screenshot-gmail-reply.png" alt="Gmail Reply" width="70%" /><br>
+  <img src="docs/assets/images/screenshot-gmail.png" alt="Gmail Extension" width="70%" /><br>
+  <img src="docs/assets/images/screenshot-gmail-reply.png" alt="Gmail Reply" width="70%" /><br>
   <strong>📬 Gmail Extension</strong>
 </p>
 
