@@ -65,7 +65,7 @@ A full-stack **AI-powered email reply generator** with **Google Mail extension**
 
 1. Download or clone the repository:
    ```bash
-   git clone https://github.com/Kvr-10/AiEmail-Assistant/AiEmail-writer-ext
+ git clone https://github.com/Kvr-10/AiEmail-Assistant
    ```
 2. Open Chrome or Brave, then type `chrome://extensions/` in the address bar and press Enter.
 
