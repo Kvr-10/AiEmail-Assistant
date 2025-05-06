@@ -60,5 +60,4 @@ We may update this policy as needed. Changes will be reflected here with a revis
 
 If you have any questions about this Privacy Policy, please contact us at:
 
-📧 **chamansinha9480@gmail.com** 
-🌐 **https://kvr-10.github.io/**
+📧[My Gmail](mailto:chamansinha9480@gmail.com)  🔗[My LinkedIn](https://www.linkedin.com/in/chaman-sinha)  🌐[My Website](https://kvr-10.github.io/)
