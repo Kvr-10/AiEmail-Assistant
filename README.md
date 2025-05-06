@@ -59,8 +59,24 @@ A full-stack **AI-powered email reply generator** with **Google Mail extension**
 
 - 🔗 **[Web Application](https://aiemail-assistant-kvr10.netlify.app/)**
 - 🔗 **[Backend URL](https://aiemail-backend.onrender.com)**
-- 📦 **Extension Download**: *(comming soon!)*
-  
+- 📦 **Extension Download**: [**Get it on Firefox Add-ons**](https://addons.mozilla.org/en-US/firefox/addon/email-writer-assitant/)
+
+## 🧪 How to Run the Extension Locally in Chrome or Brave
+
+1. Download or clone the repository:
+   ```bash
+   git clone https://github.com/Kvr-10/AiEmail-Assistant/tree/master/AiEmail-writer-ext
+   ```
+2. Open Chrome or Brave, and go to: `chrome://extensions/`
+
+3. Enable Developer mode using the toggle in the top-right corner.
+
+4. Click “Load unpacked”.
+   
+5. Select the `AiEmail-writer-ext` folder (which contains `manifest.json`).
+   
+✅ Your extension should now be loaded and active on Gmail.
+
 > **Note**: The backend service on Render may take ~50 seconds to respond on first request due to cold start.
 
 ---
