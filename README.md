@@ -74,8 +74,10 @@ A full-stack **AI-powered email reply generator** with **Google Mail extension**
 4. Click “Load unpacked”.
    
 5. Select the `AiEmail-writer-ext` folder (which contains `manifest.json`).
-   
-✅ Your extension should now be loaded and active on Gmail.
+
+    ✅ Your extension should now be loaded and active on Gmail.
+
+6. Open Gmail in your browser and attempt to reply using the AI assistant.
 
 > **Note**: The backend service on Render may take ~50 seconds to respond on first request due to cold start.
 
