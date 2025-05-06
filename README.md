@@ -116,7 +116,7 @@ A full-stack **AI-powered email reply generator** with **Google Mail extension**
 ## 🔧 Backend Setup
 
 ```bash
-git clone https://github.com/your-username/AIEmail-Assistant.git
+git clone https://github.com/Kvr-10/AiEmail-Assistant
 cd AIEmail-Assistant/backend
 ```
 
