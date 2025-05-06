@@ -5,7 +5,7 @@
     "manifest_version": 3,
     "permissions": ["activeTab", "storage"],
     "host_permissions": [
-        "http://localhost:8080/*",
+        "https://aiemail-backend.onrender.com/*",
         "*://mail.google.com/*"
     ],
     "content_scripts": [
@@ -22,7 +22,17 @@
       "matches": ["*://mail.google.com/*"]
     }
   ],
-    "action": {
-      "default_title": "Email Writer Assitant"
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "Email Writer Assistant",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
     }
   }
+}
