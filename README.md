@@ -152,8 +152,6 @@ npm run dev
 ## 🧩 Extension Setup
 ```bash
 cd ../extension
-npm install
-npm run build
 ```
 Then load the unpacked extension in Chrome via chrome://extensions.
 
