@@ -42,7 +42,7 @@ A full-stack **AI-powered email reply generator** with **Google Mail extension**
 
 ### Extension
 
-- **Chrome Extension API**
+- **Firefox Extension API**
 - **Google Mail API** integration
 
 ### DevOps & Deployment
@@ -65,17 +65,19 @@ A full-stack **AI-powered email reply generator** with **Google Mail extension**
 
 1. Download or clone the repository:
    ```bash
-   git clone https://github.com/Kvr-10/AiEmail-Assistant/tree/master/AiEmail-writer-ext
+   git clone https://github.com/Kvr-10/AiEmail-Assistant
    ```
-2. Open Chrome or Brave, and go to: `chrome://extensions/`
+2. Open Chrome or Brave, then type `chrome://extensions/` in the address bar and press Enter.
 
 3. Enable Developer mode using the toggle in the top-right corner.
 
 4. Click “Load unpacked”.
    
 5. Select the `AiEmail-writer-ext` folder (which contains `manifest.json`).
-   
-✅ Your extension should now be loaded and active on Gmail.
+
+    ✅ Your extension should now be loaded and active on Gmail.
+
+6. Open Gmail in your browser and attempt to reply using the AI assistant.
 
 > **Note**: The backend service on Render may take ~50 seconds to respond on first request due to cold start.
 
@@ -116,7 +118,7 @@ A full-stack **AI-powered email reply generator** with **Google Mail extension**
 ## 🔧 Backend Setup
 
 ```bash
-git clone https://github.com/your-username/AIEmail-Assistant.git
+git clone https://github.com/Kvr-10/AiEmail-Assistant
 cd AIEmail-Assistant/backend
 ```
 
