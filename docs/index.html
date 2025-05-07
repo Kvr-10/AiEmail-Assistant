@@ -137,7 +137,7 @@
                         </li>
                         <li>
                             <i class="fas fa-puzzle-piece"></i>
-                            <span>Chrome Extension (Coming Soon)</span>
+                            <a href="https://addons.mozilla.org/en-US/firefox/addon/email-writer-assitant/" target="_blank">Firefox Extension</a>
                         </li>
                     </ul>
                     <div class="note">
@@ -147,6 +147,61 @@
             </div>
         </div>
     </section>
+
+
+    <section id="local-installation" class="local-installation section">
+        <div class="container">
+          <h2 class="section-title">🧪 Local Installation</h2>
+          
+          <!-- Desktop version (hidden on mobile) -->
+          <div class="installation-steps desktop-steps">
+            <h3>Run the Extension Locally on Chrome or Brave</h3>
+            <ol>
+              <li>Clone the repository: <code>git clone https://github.com/Kvr-10/AiEmail-Assistant</code></li>
+              <li>Open <strong>Chrome</strong> or <strong>Brave</strong> and navigate to <code>chrome://extensions/</code>.</li>
+              <li>Enable <strong>Developer mode</strong> using the toggle in the top-right corner.</li>
+              <li>Click the <strong>"Load unpacked"</strong> button.</li>
+              <li>Select the <code>AiEmail-writer-ext</code> folder (make sure it contains the <code>manifest.json</code> file).</li>
+              <li>The extension should now be successfully installed and active in Gmail.<br>✅ You're ready to use the AI Email Assistant.</li>
+              <li>Open Gmail and try replying to an email to see the AI Assistant in action.</li>
+            </ol>
+          </div>
+          
+          <!-- Mobile version (hidden on desktop) -->
+          <div class="installation-steps mobile-steps">
+            <h3>Mobile Installation Guide</h3>
+            <ol>
+              <li>On mobile, you'll need to use a desktop browser to install extensions</li>
+              <li>Alternatively, use Kiwi Browser which supports Chrome extensions</li>
+              <li>Open Kiwi Browser and go to <code>chrome://extensions</code></li>
+              <li>Enable <strong>Developer mode</strong></li>
+              <li>Download the extension files to your device</li>
+              <li>Select "Load unpacked" and choose the folder</li>
+              <li>The extension will now work in Kiwi Browser's Gmail</li>
+            </ol>
+            <p class="mobile-note">Note: Most mobile browsers don't support extensions. We recommend using a desktop computer for full functionality.</p>
+          </div>
+        </div>
+      </section>
+      
+      <style>
+        /* Hide mobile steps by default */
+        .mobile-steps {
+          display: none;
+        }
+        
+        /* On mobile screens, show mobile steps and hide desktop steps */
+        @media (max-width: 768px) {
+          .desktop-steps {
+            display: none;
+          }
+          .mobile-steps {
+            display: block;
+          }
+        }
+      </style>
+      
+
 
     <section class="screenshots section">
         <div class="container">

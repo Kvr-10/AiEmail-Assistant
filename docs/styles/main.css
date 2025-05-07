@@ -243,6 +243,14 @@ a:hover {
     }
 }
 
+@media (max-width: 768px) {
+    .header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem; /* This adds consistent spacing between all flex children */
+    }
+}
 .hero-content {
     flex: 1;
 }
@@ -375,6 +383,28 @@ a:hover {
     color: var(--gray-color);
 }
 
+/* General section styling */
+.local-installation {
+    background-color: #f4f7fb;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+.local-installation .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
 /* Demo Section */
 .demo-content {
     display: flex;
@@ -453,6 +483,133 @@ a:hover {
 
 .note strong {
     color: var(--dark-color);
+}
+
+/* Installation Section - Merged Styles */
+.installation-steps {
+    background-color: white;
+    border-radius: var(--border-radius);
+    padding: 40px;
+    box-shadow: var(--box-shadow);
+    margin-top: 40px;
+}
+
+.installation-steps h3 {
+    font-size: 1.8rem;
+    font-weight: 600; /* Changed from 500 to match your heading weights */
+    color: var(--dark-color); /* Using your CSS variable */
+    margin-bottom: 20px;
+}
+
+.step {
+    margin-bottom: 40px;
+}
+
+.step:last-child {
+    margin-bottom: 0;
+}
+
+.step h3 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: var(--dark-color);
+}
+
+.step h4 {
+    font-size: 1.1rem;
+    margin: 20px 0 10px;
+    color: var(--dark-color);
+}
+
+.installation-steps ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    font-size: 1.1rem;
+    color: var(--dark-color); /* Using your CSS variable */
+}
+
+.installation-steps li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.installation-steps li code {
+    font-family: 'Courier New', Courier, monospace; /* Added to match your code blocks */
+    font-size: 1.1rem;
+    background-color: rgba(79, 70, 229, 0.1); /* Using primary color with opacity */
+    padding: 5px 8px;
+    border-radius: 4px;
+    color: var(--dark-color);
+}
+
+.installation-steps li .checkmark {
+    color: var(--secondary-color); /* Using your secondary color */
+    font-weight: bold;
+}
+
+.prerequisites {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.prerequisites li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--light-gray); /* Using your CSS variable */
+    padding: 10px 15px;
+    border-radius: var(--border-radius);
+    color: var(--gray-color);
+}
+
+.prerequisites i {
+    color: var(--primary-color);
+}
+
+.code-block {
+    background-color: var(--dark-color); /* Using your CSS variable */
+    border-radius: var(--border-radius);
+    padding: 15px;
+    margin: 15px 0;
+    overflow-x: auto;
+}
+
+.code-block pre {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--light-color); /* Using your CSS variable */
+}
+
+.code-block code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .installation-steps {
+        padding: 30px;
+    }
+    
+    .installation-steps h3 {
+        font-size: 1.5rem;
+    }
+
+    .installation-steps li {
+        font-size: 1rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .installation-steps {
+        padding: 20px;
+    }
 }
 
 /* Screenshots Section */
@@ -878,6 +1035,7 @@ tr:hover {
         display: block;
     }
 }
+
 
 /* Prevent horizontal overflow */
 @media (max-width: 480px) {
